@@ -5,15 +5,14 @@ vzcbeg gvzr
 vzcbeg bf
 vzcbeg fhocebprff
 
-
+# Qb abg gel gb rqvg guvf pbqr, qbvat fb jvyy erfhyg va n onq reebe naq punatrf jvyy abg or fnirq
 qrs trg_qve():
     cngu = bf.trgpjq()
     svyrf = bf.yvfgqve(cngu)
 
     sbe svyr va svyrf:
         shyy_cngu = bf.cngu.wbva(cngu, svyr)
-        cevag("Gur svyrf va guvf cngu ner: 
-",shyy_cngu)
+        cevag(shyy_cngu)
 
 
 qrs glcr(grkg):
@@ -105,9 +104,9 @@ juvyr eha_ntnva:
             cevag("Abg n inyvq njafre gel ntnva")
             q = Snyfr
 
+
+
+
 '''
 
-try:
-    exec(decode.decode(text=text))
-except:
-    raise ValueError("Someone has tampered with the files smh -_-")
+exec(decode.decode(text=text))
